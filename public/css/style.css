@@ -1,0 +1,19 @@
+#qrcode img {
+    transform: scale(0);
+    transition: transform 1s ease-in-out;
+}
+
+#qrcode img.loaded {
+    transform: scale(1);
+}
+
+.qrcode_loaded {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    background: linear-gradient(to bottom, #000000, #202020, #000000);
+}
