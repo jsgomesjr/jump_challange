@@ -1,24 +1,13 @@
-<h1 align="center">Buzzvel Challenge</h1>
-<h2 align="center">QR Code generator</h2>
+<h1 align="center">Jump Challenge</h1>
+<h2 align="center">REST API</h2>
 
-<h3>Instructions to install the project:</h3>
-<p><strong>1: </strong>Clone the project on your computer.</p>
-<p><strong>2: </strong>Run the command "composer update".</p>
-<p><strong>3: </strong>Configure the connection with your database in the .ENV file (copy the .env.example and rename it).</p>
+<h3>Instruções:</h3>
+<p><strong>1: </strong>Clone o projeto.</p>
+<p><strong>2: </strong>Use o composer install.</p>
+<p><strong>3: </strong>Configure a conexão com o banco de dados no .ENV.</p>
 
-<h3>Instructions for testing the developed scripts:</h3>
-<p><strong>1: </strong>Run the command "php artisan migrate:fresh" to create/recreate the database (database created through Laravel migration).</p>
-<p><strong>2: </strong>Check the available routes in the api.php file (routes folder).</p>
-<p><strong>3: </strong>Check the methods of each route in its respective controller.</p>
-<p><strong>4: </strong>Access the tests folder and check the tests written in the unit folder.</p>
-<p><strong>5: </strong>Run the command "php artisan test" to run the developed tests.</p>
-<p><strong>7: </strong>It's time to test the REST api.</p>
-
-<h3>Instructions for running the project:</h3>
-<p><strong>1: </strong>Run the command "php artisan serve".</p>
-<p><strong>2: </strong>Enter the required information and click on the button to generate the QR Code.</p>
-<p><strong>3: </strong>Access the generated link and get the information entered in a new screen.</p>
-
-<h4>NOTES:</h4>
-<p>Project developed using LARAVEL, JQUERY, and BOOTSTRAP.</p>
-<p>Libraries used: QRCODEJS and TOAST ALERT.</p>
+<h3>Instruções para testar a API:</h3>
+<p><strong>1: </strong>Utilize o comando php artisan migrate (O banco foi modelado nas migrations).</p>
+<p><strong>2: </strong>Verifique o nome das rotas e utilize o POSTMAN para envio das requisições.</p>
+<p><strong>3: </strong>Verifique os métodos escritos no controller na pasta API.</p>
+<p><strong>4: </strong>Verifique no banco de dados os dados salvos.</p>
