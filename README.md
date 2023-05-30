@@ -11,3 +11,4 @@
 <p><strong>2: </strong>Verifique o nome das rotas e utilize o POSTMAN para envio das requisições.</p>
 <p><strong>3: </strong>Verifique os métodos escritos no controller na pasta API.</p>
 <p><strong>4: </strong>Verifique no banco de dados os dados salvos.</p>
+<p><strong>5: </strong>Para testar o filtro, adicione na URL: ?vehiclePlate=$numerodaplaca.</p>
